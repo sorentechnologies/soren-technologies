@@ -20,11 +20,13 @@
         <img src="assets/img/crow.png" alt="" width="40" height="41" class="brand-mark" />
         <span class="brand-name">Soren Technologies</span>
       </a>
+
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
         <span class="nav-toggle-bar"></span>
         <span class="nav-toggle-bar"></span>
         <span class="nav-toggle-bar"></span>
       </button>
+
       <nav class="site-nav" id="site-nav" aria-label="Primary">
         <a href="#platforms">Platforms</a>
         <a href="#products">Products</a>
@@ -159,7 +161,7 @@
             <h3>Shadow Pulse</h3>
             <p>A decoy emitter capable of transmitting Wi-Fi, Bluetooth, and BLE.</p>
             <p class="product-price">Starting at $100</p>
-            <a class="btn btn-outline" href="mailto:d6a7d12ee7bf61bdf649ff99a4745831?subject=Quote%20Request%3A%20Shadow%20Pulse">Request a Quote</a>
+            <a class="btn btn-outline" href="#contact">Request a Quote</a>
           </article>
 
           <article class="product-card">
@@ -175,7 +177,7 @@
             <h3>Undead Tower</h3>
             <p>An evil twin portal capable of easily programmable HTML code.</p>
             <p class="product-price">Starting at $100</p>
-            <a class="btn btn-outline" href="mailto:d6a7d12ee7bf61bdf649ff99a4745831?subject=Quote%20Request%3A%20Shadow%20Pulse">Request a Quote</a>
+            <a class="btn btn-outline" href="#contact">Request a Quote</a>
           </article>
 
           <article class="product-card">
@@ -192,7 +194,7 @@
             <h3>Wave Trace</h3>
             <p>A network sniffer utilizing LoRa technology to wardrive Wi-Fi, Bluetooth, and BLE while maintaining communication to the receiver from up to 4 kilometers away.</p>
             <p class="product-price">Starting at $500</p>
-            <a class="btn btn-outline" href="mailto:d6a7d12ee7bf61bdf649ff99a4745831?subject=Quote%20Request%3A%20Wave%20Trace">Request a Quote</a>
+            <a class="btn btn-outline" href="#contact">Request a Quote</a>
           </article>
 
           <article class="product-card">
@@ -207,7 +209,7 @@
             <h3>Echo</h3>
             <p>A 2 watt transmitter capable of frequency hop, replay attacks, and programmable transmissions from 1 MHz - 930 MHz.</p>
             <p class="product-price">Starting at $750</p>
-            <a class="btn btn-outline" href="mailto:d6a7d12ee7bf61bdf649ff99a4745831?subject=Quote%20Request%3A%20Echo">Request a Quote</a>
+            <a class="btn btn-outline" href="#contact">Request a Quote</a>
           </article>
         </div>
       </div>
@@ -223,28 +225,48 @@
             For quotes or partnership inquiries, use the form below.
           </p>
         </header>
+
         <div class="contact-grid contact-grid--form-only">
-          <form class="contact-form" id="contact-form" action="https://formsubmit.co/d6a7d12ee7bf61bdf649ff99a4745831" method="POST">
+          <form
+            class="contact-form"
+            id="contact-form"
+            action="https://formsubmit.co/d6a7d12ee7bf61bdf649ff99a4745831"
+            method="POST"
+          >
             <input type="hidden" name="_subject" value="Soren Technologies website inquiry" />
             <input type="hidden" name="_captcha" value="false" />
             <input type="hidden" name="_template" value="table" />
-            <input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off" aria-hidden="true" />
+            <input type="hidden" name="_next" value="https://sorentechnologies.github.io/soren-technologies/#contact" />
+
+            <input
+              type="text"
+              name="_honey"
+              class="honey"
+              tabindex="-1"
+              autocomplete="off"
+              aria-hidden="true"
+            />
+
             <div class="field">
               <label for="name">Name</label>
               <input id="name" name="name" type="text" required autocomplete="name" />
             </div>
+
             <div class="field">
               <label for="email">Email</label>
               <input id="email" name="email" type="email" required autocomplete="email" />
             </div>
+
             <div class="field">
               <label for="org">Organization <span class="optional">(optional)</span></label>
               <input id="org" name="organization" type="text" autocomplete="organization" />
             </div>
+
             <div class="field">
               <label for="message">Message</label>
               <textarea id="message" name="message" rows="5" required></textarea>
             </div>
+
             <button class="btn btn-primary" type="submit">Send Message</button>
           </form>
         </div>
