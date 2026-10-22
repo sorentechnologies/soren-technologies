@@ -3,7 +3,7 @@
 ## Local Preview
 
 ```bash
-python3 -m http.server 8080 --directory .
+python3 -m http.server 8080 --directory
 ```
 
 ## Contact
