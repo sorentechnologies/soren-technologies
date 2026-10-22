@@ -10,4 +10,4 @@ python3 -m http.server 8080 --directory .
 
 ## Contact
 
-Quotes and the contact form use `sorenspiller@proton.me`.
+`sorenspiller@proton.me`
