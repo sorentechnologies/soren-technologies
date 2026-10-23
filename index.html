@@ -21,7 +21,13 @@
         <span class="brand-name">Soren Technologies</span>
       </a>
 
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        aria-label="Open menu"
+      >
         <span class="nav-toggle-bar"></span>
         <span class="nav-toggle-bar"></span>
         <span class="nav-toggle-bar"></span>
@@ -29,6 +35,7 @@
 
       <nav class="site-nav" id="site-nav" aria-label="Primary">
         <a href="#platforms">Platforms</a>
+        <a href="#signal-gallery">Gallery</a>
         <a href="#products">Products</a>
         <a href="#contact" class="nav-cta">Contact</a>
       </nav>
@@ -36,19 +43,28 @@
   </header>
 
   <main id="main">
+
+    <!-- Hero -->
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero-grid" aria-hidden="true"></div>
+
       <div class="container hero-inner">
         <p class="eyebrow">Defense</p>
-        <h1 id="hero-title">Precision systems for contested space operational environments</h1>
+
+        <h1 id="hero-title">
+          Precision systems for contested space operational environments
+        </h1>
+
         <p class="hero-lede">
           Soren Technologies is a defense company that designs software and hardware for
           offensive security, intelligence workflows, and electromagnetic warfare.
         </p>
+
         <div class="hero-actions">
           <a class="btn btn-primary" href="#platforms">Explore Platforms</a>
           <a class="btn btn-ghost" href="#products">View Hardware</a>
         </div>
+
         <ul class="hero-pillars" aria-label="Focus areas">
           <li>Electromagnetic Warfare</li>
           <li>Intelligence</li>
@@ -57,8 +73,14 @@
       </div>
     </section>
 
-    <section class="section platforms" id="platforms" aria-labelledby="platforms-title">
+    <!-- Software Platforms -->
+    <section
+      class="section platforms"
+      id="platforms"
+      aria-labelledby="platforms-title"
+    >
       <div class="platforms-stars" aria-hidden="true"></div>
+
       <div class="container">
         <header class="section-header">
           <p class="eyebrow">Platforms</p>
@@ -66,49 +88,181 @@
         </header>
 
         <div class="platform-grid">
+
+          <!-- Signal Vault -->
           <article class="platform-card platform-card--live">
             <div class="platform-top">
               <span class="badge badge-live">Available Now</span>
+
               <div class="platform-icon" aria-hidden="true">
-                <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5">
-                  <circle cx="32" cy="32" r="18"/>
-                  <path d="M32 14v36M14 32h36"/>
-                  <path d="M20 20c8 4 16 4 24 0M20 44c8-4 16-4 24 0"/>
-                  <circle cx="32" cy="32" r="4" fill="currentColor" stroke="none"/>
+                <svg
+                  viewBox="0 0 64 64"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <circle cx="32" cy="32" r="18" />
+                  <path d="M32 14v36M14 32h36" />
+                  <path d="M20 20c8 4 16 4 24 0M20 44c8-4 16-4 24 0" />
+                  <circle
+                    cx="32"
+                    cy="32"
+                    r="4"
+                    fill="currentColor"
+                    stroke="none"
+                  />
                 </svg>
               </div>
             </div>
+
             <h3>Signal Vault</h3>
-            <p class="platform-role">The Central Hub for Electromagnetic Warfare</p>
-            <p>
-              A central EW hub designed for high-level spectrum analysis, DF, jamming, wardriving, cyber, and automation. Comptatible with EWC2, ATAK, AN/PRC-163, SILVUS, and MPU5 radios.
+
+            <p class="platform-role">
+              The Central Hub for Electromagnetic Warfare
             </p>
+
+            <p>
+              A central EW hub designed for high-level spectrum analysis, DF,
+              jamming, wardriving, cyber, and automation. Compatible with EWC2,
+              ATAK, AN/PRC-163, SILVUS, and MPU5 radios.
+            </p>
+
             <a class="text-link" href="#contact">Request Access →</a>
           </article>
 
+          <!-- SpyWhale -->
           <article class="platform-card">
             <div class="platform-top">
               <span class="badge">Coming Soon</span>
+
               <div class="platform-icon" aria-hidden="true">
-                <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5">
-                  <rect x="12" y="16" width="40" height="32" rx="2"/>
-                  <path d="M12 28h40"/>
-                  <circle cx="22" cy="22" r="2" fill="currentColor" stroke="none"/>
-                  <path d="M20 38h12M20 44h20"/>
+                <svg
+                  viewBox="0 0 64 64"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <rect x="12" y="16" width="40" height="32" rx="2" />
+                  <path d="M12 28h40" />
+                  <circle
+                    cx="22"
+                    cy="22"
+                    r="2"
+                    fill="currentColor"
+                    stroke="none"
+                  />
+                  <path d="M20 38h12M20 44h20" />
                 </svg>
               </div>
             </div>
+
             <h3>SpyWhale</h3>
-            <p class="platform-role">The Central Hub for Nation-State Spying</p>
-            <p>A cyber and intelligence hub designed for nation-state spying, spyware, geolocation tracking, open-source intelligence, &amp; social engineering.</p>
+
+            <p class="platform-role">
+              The Central Hub for Nation-State Spying
+            </p>
+
+            <p>
+              A cyber and intelligence hub designed for nation-state spying,
+              spyware, geolocation tracking, open-source intelligence,
+              &amp; social engineering.
+            </p>
+
             <span class="muted-link">In Development</span>
           </article>
+
         </div>
       </div>
     </section>
 
-    <section class="section products" id="products" aria-labelledby="products-title">
+    <!-- Signal Vault Photo Gallery -->
+    <section
+      class="section signal-gallery"
+      id="signal-gallery"
+      aria-labelledby="signal-gallery-title"
+    >
       <div class="products-circuit" aria-hidden="true"></div>
+
+      <div class="container">
+        <header class="section-header">
+          <p class="eyebrow">Signal Vault</p>
+
+          <h2 id="signal-gallery-title">Platform Gallery</h2>
+
+          <p class="section-lede">
+            Explore Signal Vault interface previews, platform features,
+            and product imagery.
+          </p>
+        </header>
+
+        <div class="signal-gallery-grid">
+
+          <!-- Gallery Image 1 -->
+          <article class="signal-gallery-card">
+            <img
+              src="assets/img/signal-vault-01.jpg"
+              alt="Signal Vault interface overview"
+              loading="lazy"
+            />
+
+            <div class="signal-gallery-content">
+              <h3>Interface Overview</h3>
+
+              <p>
+                Add a brief description of the Signal Vault interface
+                shown in this image.
+              </p>
+            </div>
+          </article>
+
+          <!-- Gallery Image 2 -->
+          <article class="signal-gallery-card">
+            <img
+              src="assets/img/signal-vault-02.jpg"
+              alt="Signal Vault platform feature preview"
+              loading="lazy"
+            />
+
+            <div class="signal-gallery-content">
+              <h3>Platform Features</h3>
+
+              <p>
+                Describe the feature, interface, or capability
+                presented in this image.
+              </p>
+            </div>
+          </article>
+
+          <!-- Gallery Image 3 -->
+          <article class="signal-gallery-card">
+            <img
+              src="assets/img/signal-vault-03.jpg"
+              alt="Signal Vault additional platform screenshot"
+              loading="lazy"
+            />
+
+            <div class="signal-gallery-content">
+              <h3>Additional Capabilities</h3>
+
+              <p>
+                Provide a short explanation of the screen or
+                product feature shown here.
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Hardware Products -->
+    <section
+      class="section products"
+      id="products"
+      aria-labelledby="products-title"
+    >
+      <div class="products-circuit" aria-hidden="true"></div>
+
       <div class="container">
         <header class="section-header">
           <p class="eyebrow">Hardware</p>
@@ -116,32 +270,58 @@
         </header>
 
         <div class="product-grid">
+
+          <!-- Neural Web -->
           <article class="product-card">
             <div class="product-art" aria-hidden="true">
-              <svg viewBox="0 0 120 90" fill="none" stroke="currentColor" stroke-width="1.4">
-                <circle cx="36" cy="45" r="9"/>
-                <circle cx="84" cy="28" r="7"/>
-                <circle cx="84" cy="62" r="7"/>
-                <circle cx="60" cy="45" r="5"/>
-                <path d="M45 45h10M67 40l10-8M67 50l10 8"/>
-                <path d="M28 45h-8M91 28h8M91 62h8"/>
+              <svg
+                viewBox="0 0 120 90"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.4"
+              >
+                <circle cx="36" cy="45" r="9" />
+                <circle cx="84" cy="28" r="7" />
+                <circle cx="84" cy="62" r="7" />
+                <circle cx="60" cy="45" r="5" />
+                <path d="M45 45h10M67 40l10-8M67 50l10 8" />
+                <path d="M28 45h-8M91 28h8M91 62h8" />
               </svg>
             </div>
+
             <span class="badge">In Development</span>
+
             <h3>Neural Web</h3>
-            <p>A MANET router utilizing HaLow technology. Neural Web is capable of PTT, video, and GPS sharing. It is integrated with ATAK, AN/PRC-163, SILVUS, and MPU5 radios.</p>
-            <p class="product-price">Starting at $1,500 per unit (min. 2 per order)</p>
+
+            <p>
+              A MANET router utilizing HaLow technology. Neural Web is capable
+              of PTT, video, and GPS sharing. It is integrated with ATAK,
+              AN/PRC-163, SILVUS, and MPU5 radios.
+            </p>
+
+            <p class="product-price">
+              Starting at $1,500 per unit (min. 2 per order)
+            </p>
           </article>
+
         </div>
       </div>
     </section>
 
-    <section class="section contact" id="contact" aria-labelledby="contact-title">
+    <!-- Contact -->
+    <section
+      class="section contact"
+      id="contact"
+      aria-labelledby="contact-title"
+    >
       <div class="products-circuit" aria-hidden="true"></div>
+
       <div class="container contact-inner">
         <header class="section-header section-header--center">
           <p class="eyebrow">Contact</p>
+
           <h2 id="contact-title">Start a Conversation</h2>
+
           <p class="section-lede">
             For quotes or partnership inquiries, use the form below.
           </p>
@@ -154,10 +334,29 @@
             action="https://formsubmit.co/d6a7d12ee7bf61bdf649ff99a4745831"
             method="POST"
           >
-            <input type="hidden" name="_subject" value="Soren Technologies website inquiry" />
-            <input type="hidden" name="_captcha" value="false" />
-            <input type="hidden" name="_template" value="table" />
-            <input type="hidden" name="_next" value="https://sorentechnologies.github.io/soren-technologies/#contact" />
+            <input
+              type="hidden"
+              name="_subject"
+              value="Soren Technologies website inquiry"
+            />
+
+            <input
+              type="hidden"
+              name="_captcha"
+              value="false"
+            />
+
+            <input
+              type="hidden"
+              name="_template"
+              value="table"
+            />
+
+            <input
+              type="hidden"
+              name="_next"
+              value="https://sorentechnologies.github.io/soren-technologies/#contact"
+            />
 
             <input
               type="text"
@@ -170,36 +369,72 @@
 
             <div class="field">
               <label for="name">Name</label>
-              <input id="name" name="name" type="text" required autocomplete="name" />
+
+              <input
+                id="name"
+                name="name"
+                type="text"
+                required
+                autocomplete="name"
+              />
             </div>
 
             <div class="field">
               <label for="email">Email</label>
-              <input id="email" name="email" type="email" required autocomplete="email" />
+
+              <input
+                id="email"
+                name="email"
+                type="email"
+                required
+                autocomplete="email"
+              />
             </div>
 
             <div class="field">
-              <label for="org">Organization <span class="optional">(optional)</span></label>
-              <input id="org" name="organization" type="text" autocomplete="organization" />
+              <label for="org">
+                Organization <span class="optional">(optional)</span>
+              </label>
+
+              <input
+                id="org"
+                name="organization"
+                type="text"
+                autocomplete="organization"
+              />
             </div>
 
             <div class="field">
               <label for="message">Message</label>
-              <textarea id="message" name="message" rows="5" required></textarea>
+
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
             </div>
 
-            <button class="btn btn-primary" type="submit">Send Message</button>
+            <button class="btn btn-primary" type="submit">
+              Send Message
+            </button>
           </form>
         </div>
       </div>
     </section>
+
   </main>
 
+  <!-- Footer -->
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p class="footer-copy">© 2026 Soren Technologies. All rights reserved.</p>
+      <p class="footer-copy">
+        © 2026 Soren Technologies. All rights reserved.
+      </p>
+
       <nav class="footer-nav" aria-label="Footer">
         <a href="#platforms">Platforms</a>
+        <a href="#signal-gallery">Gallery</a>
         <a href="#products">Products</a>
         <a href="#contact">Contact</a>
       </nav>
