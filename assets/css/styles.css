@@ -1,28 +1,24 @@
 
-/* ========================================
-   HERO AND PLATFORMS BACKGROUND CLEANUP
-   ======================================== */
+/* ==========================================
+   HERO AND PLATFORMS: REMOVE OVERLAYS
+   ========================================== */
 
-/* Remove the decorative grid from the Hero */
 .hero .hero-grid {
   display: none !important;
 }
 
-/* Remove the decorative star overlay from Platforms */
 .platforms > .platforms-stars {
   display: none !important;
 }
 
-
-/* ========================================
-   SIGNAL VAULT GALLERY SPACE BACKGROUND
-   ======================================== */
+/* ==========================================
+   SIGNAL VAULT GALLERY: SPACE BACKGROUND
+   ========================================== */
 
 .signal-gallery {
   position: relative;
   isolation: isolate;
   overflow: hidden;
-
   background-color: #070b18;
 
   background-image:
@@ -38,37 +34,33 @@
     );
 }
 
-/* Space stars behind the gallery content */
+/* Star decoration behind the gallery */
 .signal-gallery > .platforms-stars {
-  display: block;
   position: absolute;
   inset: 0;
   z-index: -1;
+  display: block;
   pointer-events: none;
 }
 
-/* Keep gallery content above the background */
+/* Gallery content */
 .signal-gallery > .container {
   position: relative;
   z-index: 1;
 }
 
-/* Gallery grid */
-.signal-gallery .signal-gallery-grid {
+.signal-gallery-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.5rem;
   margin-top: 2rem;
 }
 
-/* Gallery cards */
-.signal-gallery .signal-gallery-card {
+.signal-gallery-card {
   min-width: 0;
   overflow: hidden;
-
   border: 1px solid rgba(140, 170, 255, 0.20);
   border-radius: 12px;
-
   background: rgba(10, 16, 35, 0.92);
 
   transition:
@@ -76,14 +68,12 @@
     border-color 0.25s ease;
 }
 
-/* Hover effect */
-.signal-gallery .signal-gallery-card:hover {
+.signal-gallery-card:hover {
   transform: translateY(-4px);
   border-color: rgba(140, 170, 255, 0.55);
 }
 
-/* Gallery images */
-.signal-gallery .signal-gallery-card img {
+.signal-gallery-card img {
   display: block;
   width: 100%;
   aspect-ratio: 16 / 10;
@@ -91,31 +81,30 @@
   background: rgba(255, 255, 255, 0.04);
 }
 
-/* Gallery text */
-.signal-gallery .signal-gallery-content {
+.signal-gallery-content {
   padding: 1.25rem;
 }
 
-.signal-gallery .signal-gallery-content h3 {
+.signal-gallery-content h3 {
   margin: 0 0 0.65rem;
 }
 
-.signal-gallery .signal-gallery-content p {
+.signal-gallery-content p {
   margin: 0;
   line-height: 1.7;
   opacity: 0.85;
 }
 
-/* Tablet layout */
+/* Tablet */
 @media (max-width: 800px) {
-  .signal-gallery .signal-gallery-grid {
+  .signal-gallery-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
-/* Mobile layout */
+/* Mobile */
 @media (max-width: 520px) {
-  .signal-gallery .signal-gallery-grid {
+  .signal-gallery-grid {
     grid-template-columns: 1fr;
   }
 }
