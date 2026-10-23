@@ -1,209 +1,440 @@
 
-<!-- Hero Section -->
-<section class="hero" aria-labelledby="hero-title">
-  <div class="container hero-inner">
-    <p class="eyebrow">Defense</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Soren Technologies — a defense company focused on offensive security, intelligence, and electromagnetic warfare." />
+  <title>Soren Technologies | Electromagnetic Warfare · Intelligence · Offensive Security</title>
+  <link rel="icon" href="assets/img/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" href="assets/img/favicon-32.png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-    <h1 id="hero-title">
-      Precision systems for contested space operational environments
-    </h1>
+  <!-- Header and Navigation -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Soren Technologies home">
+        <img src="assets/img/crow.png" alt="" width="40" height="41" class="brand-mark" />
+        <span class="brand-name">Soren Technologies</span>
+      </a>
 
-    <p class="hero-lede">
-      Soren Technologies is a defense company that designs software and hardware for
-      offensive security, intelligence workflows, and electromagnetic warfare.
-    </p>
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        aria-label="Open menu"
+      >
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
 
-    <div class="hero-actions">
-      <a class="btn btn-primary" href="#platforms">Explore Platforms</a>
-      <a class="btn btn-ghost" href="#products">View Hardware</a>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <a href="#platforms">Platforms</a>
+        <a href="#signal-gallery">Gallery</a>
+        <a href="#products">Products</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
     </div>
+  </header>
 
-    <ul class="hero-pillars" aria-label="Focus areas">
-      <li>Electromagnetic Warfare</li>
-      <li>Intelligence</li>
-      <li>Offensive Security</li>
-    </ul>
-  </div>
-</section>
+  <main id="main">
 
+    <!-- Hero Section: No Decorative Grid Overlay -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <p class="eyebrow">Defense</p>
 
-<!-- Software Platforms Section -->
-<section
-  class="section platforms"
-  id="platforms"
-  aria-labelledby="platforms-title"
->
-  <div class="container">
-    <header class="section-header">
-      <p class="eyebrow">Platforms</p>
-      <h2 id="platforms-title">Our Software</h2>
-    </header>
+        <h1 id="hero-title">
+          Precision systems for contested space operational environments
+        </h1>
 
-    <div class="platform-grid">
+        <p class="hero-lede">
+          Soren Technologies is a defense company that designs software and hardware for
+          offensive security, intelligence workflows, and electromagnetic warfare.
+        </p>
 
-      <!-- Signal Vault -->
-      <article class="platform-card platform-card--live">
-        <div class="platform-top">
-          <span class="badge badge-live">Available Now</span>
-
-          <div class="platform-icon" aria-hidden="true">
-            <svg
-              viewBox="0 0 64 64"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.5"
-            >
-              <circle cx="32" cy="32" r="18"/>
-              <path d="M32 14v36M14 32h36"/>
-              <path d="M20 20c8 4 16 4 24 0M20 44c8-4 16-4 24 0"/>
-              <circle
-                cx="32"
-                cy="32"
-                r="4"
-                fill="currentColor"
-                stroke="none"
-              />
-            </svg>
-          </div>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#platforms">Explore Platforms</a>
+          <a class="btn btn-ghost" href="#products">View Hardware</a>
         </div>
 
-        <h3>Signal Vault</h3>
+        <ul class="hero-pillars" aria-label="Focus areas">
+          <li>Electromagnetic Warfare</li>
+          <li>Intelligence</li>
+          <li>Offensive Security</li>
+        </ul>
+      </div>
+    </section>
 
-        <p class="platform-role">
-          The Central Hub for Electromagnetic Warfare
-        </p>
+    <!-- Software Platforms: No Decorative Star Overlay -->
+    <section
+      class="section platforms"
+      id="platforms"
+      aria-labelledby="platforms-title"
+    >
+      <div class="container">
+        <header class="section-header">
+          <p class="eyebrow">Platforms</p>
+          <h2 id="platforms-title">Our Software</h2>
+        </header>
 
-        <p>
-          A central EW hub designed for high-level spectrum analysis, DF,
-          jamming, wardriving, cyber, and automation. Compatible with EWC2,
-          ATAK, AN/PRC-163, SILVUS, and MPU5 radios.
-        </p>
+        <div class="platform-grid">
 
-        <a class="text-link" href="#contact">Request Access →</a>
-      </article>
+          <!-- Signal Vault -->
+          <article class="platform-card platform-card--live">
+            <div class="platform-top">
+              <span class="badge badge-live">Available Now</span>
 
-      <!-- SpyWhale -->
-      <article class="platform-card">
-        <div class="platform-top">
-          <span class="badge">Coming Soon</span>
+              <div class="platform-icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 64 64"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <circle cx="32" cy="32" r="18"/>
+                  <path d="M32 14v36M14 32h36"/>
+                  <path d="M20 20c8 4 16 4 24 0M20 44c8-4 16-4 24 0"/>
+                  <circle
+                    cx="32"
+                    cy="32"
+                    r="4"
+                    fill="currentColor"
+                    stroke="none"
+                  />
+                </svg>
+              </div>
+            </div>
 
-          <div class="platform-icon" aria-hidden="true">
-            <svg
-              viewBox="0 0 64 64"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.5"
-            >
-              <rect x="12" y="16" width="40" height="32" rx="2"/>
-              <path d="M12 28h40"/>
-              <circle
-                cx="22"
-                cy="22"
-                r="2"
-                fill="currentColor"
-                stroke="none"
-              />
-              <path d="M20 38h12M20 44h20"/>
-            </svg>
-          </div>
+            <h3>Signal Vault</h3>
+
+            <p class="platform-role">
+              The Central Hub for Electromagnetic Warfare
+            </p>
+
+            <p>
+              A central EW hub designed for high-level spectrum analysis,
+              audio analysis, direction finding, jamming, automation,
+              packet analysis, wardriving, decryption, offensive cyber,
+              mission planning, and after-action briefs.
+            </p>
+
+            <a class="text-link" href="#contact">Request Access →</a>
+          </article>
+
+          <!-- SpyWhale -->
+          <article class="platform-card">
+            <div class="platform-top">
+              <span class="badge">Coming Soon</span>
+
+              <div class="platform-icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 64 64"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <rect x="12" y="16" width="40" height="32" rx="2"/>
+                  <path d="M12 28h40"/>
+                  <circle
+                    cx="22"
+                    cy="22"
+                    r="2"
+                    fill="currentColor"
+                    stroke="none"
+                  />
+                  <path d="M20 38h12M20 44h20"/>
+                </svg>
+              </div>
+            </div>
+
+            <h3>SpyWhale</h3>
+
+            <p class="platform-role">
+              The Central Hub for Nation-State Intelligence
+            </p>
+
+            <p>
+              A cyber and intelligence hub designed for nation-state spying,
+              spyware, geolocation tracking, open-source intelligence,
+              &amp; social engineering.
+            </p>
+
+            <span class="muted-link">In Development</span>
+          </article>
+
         </div>
+      </div>
+    </section>
 
-        <h3>SpyWhale</h3>
+    <!-- Signal Vault Photo Gallery: Space Background -->
+    <section
+      class="section signal-gallery"
+      id="signal-gallery"
+      aria-labelledby="signal-gallery-title"
+    >
+      <div class="platforms-stars" aria-hidden="true"></div>
 
-        <p class="platform-role">
-          The Central Hub for Nation-State Spying
-        </p>
+      <div class="container">
+        <header class="section-header">
+          <p class="eyebrow">Signal Vault</p>
 
-        <p>
-          A cyber and intelligence hub designed for nation-state spying,
-          spyware, geolocation tracking, open-source intelligence,
-          &amp; social engineering.
-        </p>
+          <h2 id="signal-gallery-title">Platform Gallery</h2>
 
-        <span class="muted-link">In Development</span>
-      </article>
+          <p class="section-lede">
+            Explore Signal Vault interface previews, platform screenshots,
+            and product imagery.
+          </p>
+        </header>
 
-    </div>
-  </div>
-</section>
+        <div class="signal-gallery-grid">
 
+          <!-- Gallery Item 1 -->
+          <article class="signal-gallery-card">
+            <img
+              src="assets/img/signal-vault-01.jpg"
+              alt="Signal Vault interface overview"
+              loading="lazy"
+            />
 
-<!-- Signal Vault Gallery: Space Background -->
-<section
-  class="section signal-gallery"
-  id="signal-gallery"
-  aria-labelledby="signal-gallery-title"
->
-  <div class="platforms-stars" aria-hidden="true"></div>
+            <div class="signal-gallery-content">
+              <h3>Interface Overview</h3>
 
-  <div class="container">
-    <header class="section-header">
-      <p class="eyebrow">Signal Vault</p>
+              <p>
+                Add a brief description of the interface or screenshot
+                displayed in this image.
+              </p>
+            </div>
+          </article>
 
-      <h2 id="signal-gallery-title">Platform Gallery</h2>
+          <!-- Gallery Item 2 -->
+          <article class="signal-gallery-card">
+            <img
+              src="assets/img/signal-vault-02.jpg"
+              alt="Signal Vault platform feature preview"
+              loading="lazy"
+            />
 
-      <p class="section-lede">
-        Explore Signal Vault interface previews, platform features,
-        and product imagery.
+            <div class="signal-gallery-content">
+              <h3>Platform Features</h3>
+
+              <p>
+                Describe the feature or functionality presented
+                in this image.
+              </p>
+            </div>
+          </article>
+
+          <!-- Gallery Item 3 -->
+          <article class="signal-gallery-card">
+            <img
+              src="assets/img/signal-vault-03.jpg"
+              alt="Signal Vault additional platform screenshot"
+              loading="lazy"
+            />
+
+            <div class="signal-gallery-content">
+              <h3>Additional Capabilities</h3>
+
+              <p>
+                Add a short description of the screen or product
+                shown in this image.
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Hardware Section: Keep Circuit Overlay -->
+    <section
+      class="section products"
+      id="products"
+      aria-labelledby="products-title"
+    >
+      <div class="products-circuit" aria-hidden="true"></div>
+
+      <div class="container">
+        <header class="section-header">
+          <p class="eyebrow">Hardware</p>
+          <h2 id="products-title">Field-Ready Devices</h2>
+        </header>
+
+        <div class="product-grid">
+
+          <!-- Neural Web -->
+          <article class="product-card">
+            <div class="product-art" aria-hidden="true">
+              <svg
+                viewBox="0 0 120 90"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.4"
+              >
+                <circle cx="36" cy="45" r="9"/>
+                <circle cx="84" cy="28" r="7"/>
+                <circle cx="84" cy="62" r="7"/>
+                <circle cx="60" cy="45" r="5"/>
+                <path d="M45 45h10M67 40l10-8M67 50l10 8"/>
+                <path d="M28 45h-8M91 28h8M91 62h8"/>
+              </svg>
+            </div>
+
+            <span class="badge">In Development</span>
+
+            <h3>Neural Web</h3>
+
+            <p>
+              A MANET router utilizing HaLow technology. Neural Web is capable
+              of PTT, video, and GPS sharing. It is integrated with ATAK,
+              AN/PRC-163, SILVUS, and MPU5 radios.
+            </p>
+
+            <p class="product-price">
+              Starting at $1,500 per unit (min. 2 per order)
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section: Keep Circuit Overlay -->
+    <section
+      class="section contact"
+      id="contact"
+      aria-labelledby="contact-title"
+    >
+      <div class="products-circuit" aria-hidden="true"></div>
+
+      <div class="container contact-inner">
+        <header class="section-header section-header--center">
+          <p class="eyebrow">Contact</p>
+
+          <h2 id="contact-title">Start a Conversation</h2>
+
+          <p class="section-lede">
+            For quotes or partnership inquiries, use the form below.
+          </p>
+        </header>
+
+        <div class="contact-grid contact-grid--form-only">
+          <form
+            class="contact-form"
+            id="contact-form"
+            action="https://formsubmit.co/d6a7d12ee7bf61bdf649ff99a4745831"
+            method="POST"
+          >
+            <input
+              type="hidden"
+              name="_subject"
+              value="Soren Technologies website inquiry"
+            />
+
+            <input
+              type="hidden"
+              name="_captcha"
+              value="false"
+            />
+
+            <input
+              type="hidden"
+              name="_template"
+              value="table"
+            />
+
+            <input
+              type="hidden"
+              name="_next"
+              value="https://sorentechnologies.github.io/soren-technologies/#contact"
+            />
+
+            <input
+              type="text"
+              name="_honey"
+              class="honey"
+              tabindex="-1"
+              autocomplete="off"
+              aria-hidden="true"
+            />
+
+            <div class="field">
+              <label for="name">Name</label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                required
+                autocomplete="name"
+              />
+            </div>
+
+            <div class="field">
+              <label for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                required
+                autocomplete="email"
+              />
+            </div>
+
+            <div class="field">
+              <label for="org">
+                Organization <span class="optional">(optional)</span>
+              </label>
+              <input
+                id="org"
+                name="organization"
+                type="text"
+                autocomplete="organization"
+              />
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+
+            <button class="btn btn-primary" type="submit">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-copy">
+        © 2026 Soren Technologies. All rights reserved.
       </p>
-    </header>
 
-    <div class="signal-gallery-grid">
-
-      <!-- Gallery Image 1 -->
-      <article class="signal-gallery-card">
-        <img
-          src="assets/img/signal-vault-01.jpg"
-          alt="Signal Vault interface overview"
-          loading="lazy"
-        />
-
-        <div class="signal-gallery-content">
-          <h3>Interface Overview</h3>
-
-          <p>
-            Add a brief description of the Signal Vault interface
-            shown in this image.
-          </p>
-        </div>
-      </article>
-
-      <!-- Gallery Image 2 -->
-      <article class="signal-gallery-card">
-        <img
-          src="assets/img/signal-vault-02.jpg"
-          alt="Signal Vault platform feature preview"
-          loading="lazy"
-        />
-
-        <div class="signal-gallery-content">
-          <h3>Platform Features</h3>
-
-          <p>
-            Describe the feature, interface, or capability
-            presented in this image.
-          </p>
-        </div>
-      </article>
-
-      <!-- Gallery Image 3 -->
-      <article class="signal-gallery-card">
-        <img
-          src="assets/img/signal-vault-03.jpg"
-          alt="Signal Vault additional platform screenshot"
-          loading="lazy"
-        />
-
-        <div class="signal-gallery-content">
-          <h3>Additional Capabilities</h3>
-
-          <p>
-            Provide a short explanation of the screen or
-            product feature shown here.
-          </p>
-        </div>
-      </article>
-
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#platforms">Platforms</a>
+        <a href="#signal-gallery">Gallery</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
-  </div>
-</section>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
